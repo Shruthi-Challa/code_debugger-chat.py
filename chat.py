@@ -1,7 +1,7 @@
 import gradio as gr
 import requests
 
-BACKEND_URL = "http://127.0.0.1:8000/debug"
+BACKEND_URL = "https://code-debugger-main-py-1.onrender.com"
 
 
 def debug_code(language, code):
